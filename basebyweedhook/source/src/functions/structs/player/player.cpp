@@ -1,0 +1,11 @@
+#include <windows.h>
+#include <string>
+#include <vector>
+#include <iostream>
+#include "../../math/math.h"
+#include "../struct.h"
+#include "../../../../um/um.h"
+#include "../../init_cheat/offsets/offsets.h"
+#include "../enums/humanoidstate.h"
+#include "../../player_threading/cache/cache.hpp"
+#include "../../../../cheat/vars/vars.h"

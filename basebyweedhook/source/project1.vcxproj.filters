@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SRC\Driver\Driver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\Games\BB\BB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\Games\Frontlines\Frontlines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\Games\Universal\Universal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\Games\PF\PF.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\ESP\ESP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\Aimbot\Aimbot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\Rage\Rage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\Wallcheck\Wallcheck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="um\um.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\functions\init_cheat\init.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\functions\math\math.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\vars\console\console.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\functions\aimbot\aimbot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\functions\esp\esp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\functions\init_cheat\offsets\offsets.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\functions\structs\struct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\vars\vars.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\functions\wallcheck\wallcheck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\overlay\design\utils\overlay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\overlay\design\imgui\imconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\overlay\design\imgui\imgui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\overlay\design\imgui\imgui_impl_dx11.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\overlay\design\imgui\imgui_impl_win32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\overlay\design\imgui\imgui_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\overlay\design\imgui\imgui_offset_rect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\overlay\design\imgui\imstb_rectpack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\overlay\design\imgui\imstb_textedit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\overlay\design\imgui\imstb_truetype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\overlay\design\imgui\TextEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\overlay\design\ckey\keybind.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\overlay\design\utils\xorstr.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\functions\player_threading\cache\cache.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\functions\player_threading\player_threading.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\functions\esp\outlines\render.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\vars\console\framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\overlay\design\fonts\IconsFontAwesome6.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\overlay\design\fonts\FontAwesomeFont.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\overlay\design\fonts\FontAwesome.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\functions\structs\enums\humanoidstate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\functions\units\thread_entites.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\overlay\design\key\keybind.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\overlay\design\key\keybind.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\functions\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\functions\init_cheat\init.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat\functions\aimbot\aimbot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat\functions\esp\esp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\functions\structs\camera\camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\functions\structs\instance\instance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\functions\structs\part\part.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\functions\structs\player\player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\functions\structs\visual_engine\visual_engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat\functions\wallcheck\wallcheck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat\overlay\overlay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat\overlay\design\imgui\imgui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat\overlay\design\imgui\imgui_demo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat\overlay\design\imgui\imgui_draw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat\overlay\design\imgui\imgui_impl_dx11.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat\overlay\design\imgui\imgui_impl_win32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat\overlay\design\imgui\imgui_tables.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat\overlay\design\imgui\imgui_widgets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat\overlay\design\imgui\TextEditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\functions\init_cheat\global_variables.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\functions\player_threading\cache\cache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\functions\player_threading\player_threading.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat\functions\units\thread_enities.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat\functions\units\entities\third_person.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat\overlay\design\key\keybind.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
